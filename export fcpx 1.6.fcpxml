@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.6">
+    <media id="GOPROTAGS" name="Phantom Overlay ">
+                <sequence duration="906/30s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip name="GOPR-HL0" offset="0s" ref="r2" duration="22/6s" start="18821803/240s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="29.97"/>
+                            <video name="GraffitiNom" lane="1" offset="18821803/240s" ref="r4" duration="90600/3000s" start="3600s" enabled="0" role="titles.Overlay">
+                                <param name="Sky" key="9999/987171866/100/987175410/2/100" value="5 (None)"/>
+                                <param name="Background" key="9999/987171866/100/987175692/2/100" value="3 (Mountains)"/>
+                                <param name="People" key="9999/987171866/100/987181336/2/100" value="0 (0)"/>
+                                <param name="View Notes" key="9999/987171866/100/999117736/2/100" value="1"/>
+                                <marker start="54088/15s" duration="100/3000s" value="Marqueur 1"/>
+                                <marker start="54181/15s" duration="100/3000s" value="Marqueur 7" completed="0"/>
+                                <chapter-marker start="18084/5s" duration="100/3000s" value="Chapitre 2" posterOffset="11/30s"/>
+                                <marker start="54307/15s" duration="100/3000s" value="Marqueur 8"/>
+                                <marker start="54371/15s" duration="100/3000s" value="Marqueur 5"/>
+                                <marker start="108839/30s" duration="100/3000s" value="Marqueur 6"/>
+                            </video>
+                            <audio-channel-source role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </asset-clip>
+                        <asset-clip name="GOPR-HL1" offset="110/30s" ref="r5" duration="6s" start="2368116751/30000s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="29.97"/>
+                            <audio-channel-source role="dialogue.dialogue-1" srcCh="1, 2">
+                                <adjust-loudness amount="63" uniformity="14"/>
+                            </audio-channel-source>
+                        </asset-clip>
+                        <asset-clip name="GOPR-HL5" offset="290/30s" ref="r6" duration="308/15s" start="392320929/5000s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="29.97"/>
+                            <audio-channel-source role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>

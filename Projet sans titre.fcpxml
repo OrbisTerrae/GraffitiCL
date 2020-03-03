@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.6">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p30" frameDuration="100/3000s" width="1920" height="1080"/>
+        <asset id="r2" name="GOPR-HL0" uid="58055624D334F9AF1FAEB2AE03909C33" src="file:///Volumes/HomeSSD/Users/gbourell/Dropbox/private/temp/GOPRO-HIGHLIGHTS/GOPR-HL0.MP4" start="7058176125/90000s" duration="330330/90000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9vaxQFAAAAAAQQMAAAAGi7qF3YtsGYmgiaGojpcPz5Y6aITtW/8DnMYL/Sqrsg7AMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAEhvbWVTU0QABQAAAAEBAABVc2VycwAAAAgAAAABAQAAZ2JvdXJlbGwHAAAAAQEAAERyb3Bib3gABwAAAAEBAABwcml2YXRlAAQAAAABAQAAdGVtcBAAAAABAQAAR09QUk8tSElHSExJR0hUUwwAAAABAQAAR09QUi1ITDAuTVA0JAAAAAEGAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAfAAAAJQAAAAIAAAABAMAAIc4AAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAWQAAAAAAAAAIAAAABAMAABABAAAAAAAACAAAAAQDAAD7EgMAAAAAAAgAAAAEAwAAdRoDAAAAAAAIAAAABAMAAIU+AwAAAAAACAAAAAQDAAA5JqEAAAAAAAgAAAAEAwAAESihAAAAAAAkAAAAAQYAANQAAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAABEAQAAVAEAAAgAAAAABAAAQcAL62OAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAFAAAABAAAAAMDAAAHAAAACAAAAAQDAAAFAAAAAAAAAAkAAAABAQAAR3VpbGxhdW1lAAAABAAAAAMDAAD1AQAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvSG9tZVNTRC8IAAAABAMAAADApCd3AAAACAAAAAAEAABBtYp+ewAAACQAAAABAQAARDUyQzAwQTUtRTdBRC0zQTJELTgzMUUtNjQxMERCMzEwOTgxGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL0hvbWVTU0QIAAAAAQkAAGZpbGU6Ly8vCQAAAAEBAABtYWNPUyBTU0QAAAAIAAAABAMAAACAU/doAAAACAAAAAAEAABBvg08zwAAACQAAAABAQAAMzVEMzlBOTItRkVEQS0zQjE3LUI1MDItRTk4NTBBNTMzOUIwAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAJAMAAAAAAAAFIAAAtAIAAAAAAAAQIAAAxAIAAAAAAAARIAAA+AIAAAAAAAASIAAA2AIAAAAAAAATIAAA6AIAAAAAAAAgIAAAfAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAoAAAAAQYAAJgDAACkAwAAsAMAAKQDAACkAwAApAMAAKQDAACkAwAApAMAAKQDAADwAAAA/v///wEAAAAwAwAAEwAAAAQQAACoAAAAAAAAAAUQAABkAQAAAAAAABAQAACgAQAAAAAAAEAQAACQAQAAAAAAAFQQAADIAQAAAAAAAFUQAADUAQAAAAAAAFYQAADAAQAAAAAAAAAgAAC8AwAAAAAAAAIgAACcAgAAAAAAAAUgAAAQAgAAAAAAABAgAAAgAAAAAAAAABEgAABQAgAAAAAAABIgAAAwAgAAAAAAABMgAABAAgAAAAAAACAgAAB8AgAAAAAAAAHAAADgAQAAAAAAABHAAADwAQAAAAAAABLAAAAEAgAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>AAC</string>
+                        <string>GoPro AVC encoder</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-02-16 15:00:24 +0100"/>
+            </metadata>
+        </asset>
+        <format id="r3" frameDuration="3003/90000s" width="2704" height="1520"/>
+        <effect id="r4" name="Repère d’emplacement" uid=".../Generators.localized/Elements.localized/Placeholder.localized/Placeholder.motn"/>
+        <asset id="r5" name="GOPR-HL1" uid="47A7DE5A2511C45063AFD45C13D99CCF" src="file:///Volumes/HomeSSD/Users/gbourell/Dropbox/private/temp/GOPRO-HIGHLIGHTS/GOPR-HL1.MP4" start="7104350253/90000s" duration="540540/90000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9vaxQFAAAAAAQQMAAAAJleg8SfPVMK2tdmC1AnBGwIaU8ym82pyxzwh3tO/eaJ7AMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAEhvbWVTU0QABQAAAAEBAABVc2VycwAAAAgAAAABAQAAZ2JvdXJlbGwHAAAAAQEAAERyb3Bib3gABwAAAAEBAABwcml2YXRlAAQAAAABAQAAdGVtcBAAAAABAQAAR09QUk8tSElHSExJR0hUUwwAAAABAQAAR09QUi1ITDEuTVA0JAAAAAEGAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAfAAAAJQAAAAIAAAABAMAAIc4AAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAWQAAAAAAAAAIAAAABAMAABABAAAAAAAACAAAAAQDAAD7EgMAAAAAAAgAAAAEAwAAdRoDAAAAAAAIAAAABAMAAIU+AwAAAAAACAAAAAQDAAA5JqEAAAAAAAgAAAAEAwAAxSehAAAAAAAkAAAAAQYAANQAAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAABEAQAAVAEAAAgAAAAABAAAQcAL7GQAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAFAAAABAAAAAMDAAAHAAAACAAAAAQDAAAFAAAAAAAAAAkAAAABAQAAR3VpbGxhdW1lAAAABAAAAAMDAAD1AQAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvSG9tZVNTRC8IAAAABAMAAADApCd3AAAACAAAAAAEAABBtYp+ewAAACQAAAABAQAARDUyQzAwQTUtRTdBRC0zQTJELTgzMUUtNjQxMERCMzEwOTgxGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL0hvbWVTU0QIAAAAAQkAAGZpbGU6Ly8vCQAAAAEBAABtYWNPUyBTU0QAAAAIAAAABAMAAACAU/doAAAACAAAAAAEAABBvg08zwAAACQAAAABAQAAMzVEMzlBOTItRkVEQS0zQjE3LUI1MDItRTk4NTBBNTMzOUIwAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAJAMAAAAAAAAFIAAAtAIAAAAAAAAQIAAAxAIAAAAAAAARIAAA+AIAAAAAAAASIAAA2AIAAAAAAAATIAAA6AIAAAAAAAAgIAAAfAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAoAAAAAQYAAJgDAACkAwAAsAMAAKQDAACkAwAApAMAAKQDAACkAwAApAMAAKQDAADwAAAA/v///wEAAAAwAwAAEwAAAAQQAACoAAAAAAAAAAUQAABkAQAAAAAAABAQAACgAQAAAAAAAEAQAACQAQAAAAAAAFQQAADIAQAAAAAAAFUQAADUAQAAAAAAAFYQAADAAQAAAAAAAAAgAAC8AwAAAAAAAAIgAACcAgAAAAAAAAUgAAAQAgAAAAAAABAgAAAgAAAAAAAAABEgAABQAgAAAAAAABIgAAAwAgAAAAAAABMgAABAAgAAAAAAACAgAAB8AgAAAAAAAAHAAADgAQAAAAAAABHAAADwAQAAAAAAABLAAAAEAgAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>AAC</string>
+                        <string>GoPro AVC encoder</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-02-16 15:00:24 +0100"/>
+            </metadata>
+        </asset>
+        <asset id="r6" name="GOPR-HL5" uid="5F821CF602E899777FE612349AAF4F7A" src="file:///Volumes/HomeSSD/Users/gbourell/Dropbox/private/temp/GOPRO-HIGHLIGHTS/GOPR-HL5.MP4" start="7061776722/90000s" duration="1849848/90000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9vaxQFAAAAAAQQMAAAADwwdZz+dr8Fb++sw/F3dLJWYgSYhEjsVQNkJ2q2NOsu7AMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAAEhvbWVTU0QABQAAAAEBAABVc2VycwAAAAgAAAABAQAAZ2JvdXJlbGwHAAAAAQEAAERyb3Bib3gABwAAAAEBAABwcml2YXRlAAQAAAABAQAAdGVtcBAAAAABAQAAR09QUk8tSElHSExJR0hUUwwAAAABAQAAR09QUi1ITDUuTVA0JAAAAAEGAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAfAAAAJQAAAAIAAAABAMAAIc4AAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAWQAAAAAAAAAIAAAABAMAABABAAAAAAAACAAAAAQDAAD7EgMAAAAAAAgAAAAEAwAAdRoDAAAAAAAIAAAABAMAAIU+AwAAAAAACAAAAAQDAAA5JqEAAAAAAAgAAAAEAwAA2CehAAAAAAAkAAAAAQYAANQAAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAABEAQAAVAEAAAgAAAAABAAAQcAL63eAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAFAAAABAAAAAMDAAAHAAAACAAAAAQDAAAFAAAAAAAAAAkAAAABAQAAR3VpbGxhdW1lAAAABAAAAAMDAAD1AQAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvSG9tZVNTRC8IAAAABAMAAADApCd3AAAACAAAAAAEAABBtYp+ewAAACQAAAABAQAARDUyQzAwQTUtRTdBRC0zQTJELTgzMUUtNjQxMERCMzEwOTgxGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL0hvbWVTU0QIAAAAAQkAAGZpbGU6Ly8vCQAAAAEBAABtYWNPUyBTU0QAAAAIAAAABAMAAACAU/doAAAACAAAAAAEAABBvg08zwAAACQAAAABAQAAMzVEMzlBOTItRkVEQS0zQjE3LUI1MDItRTk4NTBBNTMzOUIwAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAJAMAAAAAAAAFIAAAtAIAAAAAAAAQIAAAxAIAAAAAAAARIAAA+AIAAAAAAAASIAAA2AIAAAAAAAATIAAA6AIAAAAAAAAgIAAAfAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAoAAAAAQYAAJgDAACkAwAAsAMAAKQDAACkAwAApAMAAKQDAACkAwAApAMAAKQDAADwAAAA/v///wEAAAAwAwAAEwAAAAQQAACoAAAAAAAAAAUQAABkAQAAAAAAABAQAACgAQAAAAAAAEAQAACQAQAAAAAAAFQQAADIAQAAAAAAAFUQAADUAQAAAAAAAFYQAADAAQAAAAAAAAAgAAC8AwAAAAAAAAIgAACcAgAAAAAAAAUgAAAQAgAAAAAAABAgAAAgAAAAAAAAABEgAABQAgAAAAAAABIgAAAwAgAAAAAAABMgAABAAgAAAAAAACAgAAB8AgAAAAAAAAHAAADgAQAAAAAAABHAAADwAQAAAAAAABLAAAAEAgAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemProfileName" value="HD (1-1-1)"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>AAC</string>
+                        <string>GoPro AVC encoder</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-02-16 15:00:24 +0100"/>
+            </metadata>
+        </asset>
+    </resources>
+    <library location="file:///Volumes/RAID0/FCPX%202018%20and%20later.fcpbundle/">
+        <event name="TAGS" uid="C074FD48-69DB-4ED9-B30C-B2C60932B061">
+            <project name="Projet sans titre" uid="A3825E8D-053B-463D-B0C9-69561CDB9EE0" modDate="2018-02-16 15:07:19 +0100">
+                <sequence duration="906/30s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip name="GOPR-HL0" offset="0s" ref="r2" duration="22/6s" start="18821803/240s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="29.97"/>
+                            <video name="GraffitiNom" lane="1" offset="18821803/240s" ref="r4" duration="90600/3000s" start="3600s" enabled="0" role="titles.Overlay">
+                                <param name="Sky" key="9999/987171866/100/987175410/2/100" value="5 (None)"/>
+                                <param name="Background" key="9999/987171866/100/987175692/2/100" value="3 (Mountains)"/>
+                                <param name="People" key="9999/987171866/100/987181336/2/100" value="0 (0)"/>
+                                <param name="View Notes" key="9999/987171866/100/999117736/2/100" value="1"/>
+                                <marker start="54088/15s" duration="100/3000s" value="Marqueur 1"/>
+                                <marker start="54181/15s" duration="100/3000s" value="Marqueur 7" completed="0"/>
+                                <chapter-marker start="18084/5s" duration="100/3000s" value="Chapitre 2" posterOffset="11/30s"/>
+                                <marker start="54307/15s" duration="100/3000s" value="Marqueur 8"/>
+                                <marker start="54371/15s" duration="100/3000s" value="Marqueur 5"/>
+                                <marker start="108839/30s" duration="100/3000s" value="Marqueur 6"/>
+                            </video>
+                            <audio-channel-source role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </asset-clip>
+                        <asset-clip name="GOPR-HL1" offset="110/30s" ref="r5" duration="6s" start="2368116751/30000s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="29.97"/>
+                            <audio-channel-source role="dialogue.dialogue-1" srcCh="1, 2">
+                                <adjust-loudness amount="63" uniformity="14"/>
+                            </audio-channel-source>
+                        </asset-clip>
+                        <asset-clip name="GOPR-HL5" offset="290/30s" ref="r6" duration="308/15s" start="392320929/5000s" audioRole="dialogue" format="r3" tcFormat="NDF">
+                            <conform-rate srcFrameRate="29.97"/>
+                            <audio-channel-source role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projets" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="Toutes les vidéos" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio seulement" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Images" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favoris" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

@@ -1,0 +1,34 @@
+-- GMPF Duration 30.575000
+-- GMPF MetaSize Count 30 - MetaDataLength 30.000000
+-- MD Duration 2751750
+-- MD time_scale 90000
+-- Frame rate 30.575001 (or 0.033972) opposite 0.032706
+-- Frame rate 0.981194 
+-- indexcount 30
+-- ClockDemon 90000
+-- ClockCount 2753280
+-- TrakClockDemon 90000
+-- TrakClockCount 2751750
+-- MetaClockDemon 1000
+-- MetaClockCount 30000
+HMMT: GOPRO MANUAL TAGS
+GOPR2827.MP4
+[0]   20437ms 
+[1]   28000ms 
+SETT: GOPRO SETTINGS 
+(0xc2000000 0x4580 0x0)
+
+	mode:			Video
+	orientation:		Up
+	spotmeter:		Off
+	fov:			Wide
+	lowlight:		Off
+	superview:		Off
+	protune:		On
+	protune_wb:		Auto*
+	protune_color:		GoPro Color*
+	protune_iso:		1600
+	protune_sharpness:	High*
+	protune_ev:		0
+-----------------------------------------------
+

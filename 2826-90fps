@@ -1,0 +1,31 @@
+-- GMPF Duration 30.322222
+-- GMPF MetaSize Count 30 - MetaDataLength 30.000000
+-- MD Duration 2729000
+-- MD time_scale 90000
+-- Frame rate 30.322222 (or 0.033691) opposite 0.032979
+-- Frame rate 0.989373 
+-- indexcount 30
+-- ClockDemon 90000
+-- ClockCount 2730240
+-- TrakClockDemon 90000
+-- TrakClockCount 2729000
+-- MetaClockDemon 1000
+-- MetaClockCount 30000
+HMMT: GOPRO MANUAL TAGS
+SETT: GOPRO SETTINGS 
+(0xc2000000 0x4580 0x0)
+
+	mode:			Video
+	orientation:		Up
+	spotmeter:		Off
+	fov:			Wide
+	lowlight:		Off
+	superview:		Off
+	protune:		On
+	protune_wb:		Auto*
+	protune_color:		GoPro Color*
+	protune_iso:		1600
+	protune_sharpness:	High*
+	protune_ev:		0
+-----------------------------------------------
+

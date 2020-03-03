@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.7">
+    <resources>
+        <media id="GOPROTAGS" name="Graffiti (filename.MP4)">
+            <sequence duration="90600/3000s" format="VideoFormatId" tcStart="0s" tcFormat="NDF" keywords="Orbis Terrae">
+                <spine>
+                    
+                    <video name="GraffitiNom" offset="0s" ref="placeholder" duration="90600/3000s" start="3600s" enabled="0" role="titles.Overlay">
+                        <param name="Sky" key="9999/987171866/100/987175410/2/100" value="5 (None)"/>
+                        <param name="Background" key="9999/987171866/100/987175692/2/100" value="3 (Mountains)"/>
+                        <param name="People" key="9999/987171866/100/987181336/2/100" value="0 (0)"/>
+                        <param name="View Notes" key="9999/987171866/100/999117736/2/100" value="1"/>
+                        <marker start="54088/15s" duration="100/3000s" value="Marqueur 1"/>
+                        <marker start="54181/15s" duration="100/3000s" value="Marqueur 7" completed="0"/>
+                        <chapter-marker start="18084/5s" duration="100/3000s" value="Chapitre 2" posterOffset="11/30s"/>
+                        <marker start="54307/15s" duration="100/3000s" value="Marqueur 8"/>
+                        <marker start="54371/15s" duration="100/3000s" value="Marqueur 5"/>
+                        <marker start="108839/30s" duration="100/3000s" value="Marqueur 6"/>
+                    </video>
+             
+                </spine>
+            </sequence>
+        </media>
+        <effect id="placeholder" name="Repère d’emplacement" uid=".../Generators.localized/Elements.localized/Placeholder.localized/Placeholder.motn"/>
+        <format id="VideoFormatId" name="FFVideoFormatRateUndefined"/>
+    </resources>
+    <library>
+        <event name="Orbis Terrae">
+            <ref-clip ref="GOPROTAGS" name="GoPro Highlights" duration="90600/3000s"/>
+        </event>
+    </library>
+</fcpxml>
