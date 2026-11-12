@@ -1,38 +1,50 @@
-GraffitiCL : GraffitiCLI.o GPMF_parser.o SRT.o GPMF_mp4reader.o GPMF_print.o FCPXML.o GPS.o GPX.o KML.o stop.o tags.o 
-		gcc -fsanitize=address -g -o GraffitiCL GraffitiCLI.o SRT.o GPMF_parser.o GPMF_mp4reader.o GPMF_print.o  FCPXML.o GPS.o GPX.o KML.o stop.o tags.o
+CC ?= cc
+CFLAGS ?= -g -Wall -Wextra
+CPPFLAGS ?=
+LDFLAGS ?=
+DEPFLAGS = -MMD -MP
 
-GraffitiCLI.o : GraffitiCLI.c GPMF_parser.h tags.h
-		gcc -fsanitize=address -g -c GraffitiCLI.c
-GPMF_mp4reader.o : GPMF_mp4reader.c GPMF_parser.h
-		gcc -fsanitize=address -g -c GPMF_mp4reader.c
-GPMF_print.o : GPMF_print.c GPMF_parser.h
-		gcc -fsanitize=address -g -c GPMF_print.c
-GPMF_parser.o : GPMF_parser.c GPMF_parser.h
-		gcc -fsanitize=address -g -c GPMF_parser.c
-tags.o : tags.c tags.h
-		gcc -fsanitize=address -g -c tags.c
-GPS.o : GPS.c GPS.h tags.h
-		gcc -fsanitize=address -g -c GPS.c
-SRT.o : SRT.c SRT.h tags.h GPS.h
-		gcc -fsanitize=address -g -c SRT.c
-GPX.o : GPX.c GPX.h tags.h
-		gcc -fsanitize=address -g -c GPX.c
-KML.o : KML.c KML.h tags.h
-		gcc -fsanitize=address -g -c KML.c
-FCPXML.o : FCPXML.c FCPXML.h tags.h
-		gcc -fsanitize=address -g -c FCPXML.c
-stop.o : stop.c stop.h tags.h gps.h
-		gcc -fsanitize=address -g -c stop.c
-clean_test_files:
-		rm test/*.FCPXML
-		rm test/*.GPX
-		rm test/*.KML
-	
-run: GraffitiCL
-	./GraffitiCL -a -M test/
-	
-run_debug: GraffitiCL
-	./GraffitiCL -a -M -d test/
-    
-clean :
-		rm GraffitiCL GraffitiCLI.o SRT.o GPS.o GPMF_parser.o GPMF_mp4reader.o tags.o GPMF_print.o FCPXML.o GPX.o KML.o stop.o
+CPPFLAGS += -Isrc -Ithird_party/gpmf-parser -Ithird_party/gpmf-mp4reader
+
+APP_OBJECTS = \
+	build/GraffitiCLI.o \
+	build/GPS.o \
+	build/GPX.o \
+	build/KML.o \
+	build/FCPXML.o \
+	build/SRT.o \
+	build/stop.o \
+	build/tags.o
+
+GPMF_OBJECTS = \
+	build/gpmf-parser/GPMF_parser.o \
+	build/gpmf-parser/GPMF_utils.o \
+	build/gpmf-mp4reader/GPMF_mp4reader.o \
+	build/gpmf-mp4reader/GPMF_print.o
+
+.PHONY: all clean test
+all: GraffitiCL
+
+test: GraffitiCL
+	python3 tests/timing_regression.py
+
+GraffitiCL: $(APP_OBJECTS) $(GPMF_OBJECTS)
+	$(CC) $(LDFLAGS) -o $@ $(APP_OBJECTS) $(GPMF_OBJECTS)
+
+build/%.o: src/%.c
+	mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) $(CFLAGS) $(DEPFLAGS) -c -o $@ $<
+
+build/gpmf-parser/%.o: third_party/gpmf-parser/%.c
+	mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) $(CFLAGS) $(DEPFLAGS) -c -o $@ $<
+
+build/gpmf-mp4reader/%.o: third_party/gpmf-mp4reader/%.c
+	mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) $(CFLAGS) $(DEPFLAGS) -c -o $@ $<
+
+-include $(APP_OBJECTS:.o=.d) $(GPMF_OBJECTS:.o=.d)
+
+clean:
+	rm -rf build GraffitiCL
+	rm -f *.o *.d
